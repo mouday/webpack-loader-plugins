@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js",
+    "start": "http-server ./dist -o index.html -c-1",
+    "debug": "node --inspect-brk ./node_modules/webpack-cli/bin/cli.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "loader-utils": "^3.2.0",
+    "safe-require": "^1.0.4",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
